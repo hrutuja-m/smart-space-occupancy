@@ -1,0 +1,51 @@
+# ── Python ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ── Virtual envs ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── OS ─────────────────────────────────────────────────────────────────
+.DS_Store
+
+# ── Data & model artifacts (reproduce via scripts, never commit) ───────
+data/raw/
+data/interim/
+data/processed/
+external_datasets/
+*.zip
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+runs/
+!runs/.gitkeep
+
+# ── Experiment tracking ───────────────────────────────────────────────
+mlruns/
+mlartifacts/
+wandb/
+
+# ── Editor / IDE ──────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+
+# ── Env files ─────────────────────────────────────────────────────────
+.env
+
+# ── Retired v1 code (kept locally for reference, not shipped) ─────────
+.archive_v1/

@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: Smart Space Occupancy Monitoring
+message: >-
+  A four-model benchmark (detection, CNN regression, gradient boosting on deep
+  features, density estimation) for indoor people-counting, with tracking-based
+  flow counting, uncertainty-aware evaluation, and edge deployment tooling.
+type: software
+authors:
+  - given-names: Rutuja
+    family-names: More
+license: MIT
+keywords:
+  - computer-vision
+  - crowd-counting
+  - occupancy-monitoring
+  - yolov8
+  - csrnet
+  - edge-ai
+references:
+  - type: dataset
+    title: People Detection Dataset (v16)
+    authors:
+      - name: "up-care-thesis (Roboflow Universe)"
+    url: https://universe.roboflow.com/up-care-thesis/people-detection-dataset/dataset/16
+    license: CC-BY-4.0
+  - type: article
+    title: "CSRNet: Dilated Convolutional Neural Networks for Understanding the Highly Congested Scenes"
+    authors:
+      - family-names: Li
+        given-names: Yuhong
+      - family-names: Zhang
+        given-names: Xiaofan
+      - family-names: Chen
+        given-names: Deming
+    year: 2018

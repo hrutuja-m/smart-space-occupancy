@@ -1,0 +1,11 @@
+# Dataset preparation config.
+# max_samples: cap on how many source images to pull from the Roboflow export.
+#   800  -> comfortable for Apple-Silicon MPS / CPU (default)
+#   0    -> use the full export (3,185 images) — recommended on a cloud GPU
+max_samples: 800
+seed: 42
+train_ratio: 0.70
+val_ratio: 0.15
+test_ratio: 0.15
+img_size: 224
+density_sigma: 4.0

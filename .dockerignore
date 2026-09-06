@@ -1,0 +1,17 @@
+.git
+.venv
+.archive_v1
+data
+external_datasets
+runs
+mlruns
+notebooks
+tests
+docs
+*.zip
+*.pt
+*.onnx
+__pycache__
+.pytest_cache
+.ruff_cache
+.DS_Store

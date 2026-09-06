@@ -1,0 +1,7 @@
+# YOLOv8 fine-tuning (Ultralytics). Consumed by src/smart_space/training/train_yolo.py
+model: yolov8n.pt          # nano: edge-friendly, CPU/MPS trainable
+epochs: 40
+imgsz: 640
+batch: 16
+patience: 15
+conf_threshold: 0.25       # used at inference time to turn detections into a count

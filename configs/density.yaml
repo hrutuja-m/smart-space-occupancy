@@ -1,0 +1,8 @@
+# CSRNet-lite density estimator.
+# 15 epochs is enough on the 800-image local subset; bump to 40+ for a full-data GPU run.
+epochs: 15
+batch_size: 8
+lr: 0.00005
+weight_decay: 0.0001
+num_workers: 2
+mlflow_experiment: smart-space-occupancy
